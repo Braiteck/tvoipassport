@@ -86,6 +86,8 @@
 
     .form textarea
     {
+        font-size: 11px;
+
         height: 57px;
     }
 
