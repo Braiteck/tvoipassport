@@ -1,0 +1,668 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 11px;
+        --font_size_title: 15px;
+    }
+
+
+    .block
+    {
+        margin-top: 20px;
+    }
+
+    .block.gray
+    {
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        width: 100%;
+    }
+
+    header > .close
+    {
+        top: 10px;
+        right: 10px;
+        left: auto;
+    }
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form_section .bg
+    {
+        margin-top: 10px;
+        padding-bottom: 26px;
+    }
+
+
+    .form .input
+    {
+        font-size: 11px;
+
+        height: 24px;
+    }
+
+    .form textarea
+    {
+        height: 57px;
+    }
+
+    .form .submit_btn
+    {
+        font-size: 16px;
+
+        height: 30px;
+    }
+
+
+
+    /*----------------
+        Main section
+    ----------------*/
+    .main_section .bg
+    {
+        margin-top: 10px;
+        padding: 30px 0;
+    }
+
+
+    .main_section .form .title
+    {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .main_section .form .input
+    {
+        height: 24px;
+    }
+
+    .main_section .form textarea
+    {
+        height: 57px;
+    }
+
+    .main_section .form .agree
+    {
+        margin-top: 8px;
+    }
+
+    .main_section .form .submit_btn
+    {
+        height: 30px;
+    }
+
+
+
+    /*----------------
+        Main about
+    ----------------*/
+    .main_about .text_block
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block p,
+    .text_block ul
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .text_block ul li
+    {
+        padding-left: 22px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 0;
+    }
+
+
+
+    /*-----------------
+        Main info
+    -----------------*/
+    .row_info
+    {
+        margin-top: 10px;
+    }
+
+
+    .list_info li
+    {
+        font-size: 14px;
+    }
+
+    .list_info li + li
+    {
+        margin-top: 12px;
+    }
+
+    .list_info li:before
+    {
+        top: 3px;
+
+        width: 9px;
+        height: 12px;
+    }
+
+    .list_info li span
+    {
+        font-size: 11px;
+
+        width: 50px;
+    }
+
+
+    .video_slider2
+    {
+        margin-top: 10px;
+    }
+
+
+    .link_all
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*-----------------
+        History
+    -----------------*/
+    .history .bg
+    {
+        margin-top: 10px;
+        padding: 58px 0 48px;
+    }
+
+
+
+    /*-----------------
+        Advantages
+    -----------------*/
+    .advantages .bg
+    {
+        margin-top: 10px;
+        padding: 14px 0 42px;
+    }
+
+
+
+    .advantages .swiper-slide
+    {
+        padding-top: 42px;
+    }
+
+    .advantages .item
+    {
+        max-width: 230px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    .advantages .item:before
+    {
+        top: -42px;
+
+        width: 56px;
+        height: 72px;
+    }
+
+
+    .advantages_text
+    {
+        padding: 0 0 20px;
+    }
+
+    .advantages_text .items
+    {
+        margin-top: 0;
+    }
+
+    .advantages_text .item
+    {
+        margin-top: 20px;
+    }
+
+    .advantages_text .item .number
+    {
+        font-size: 44px;
+    }
+
+    .advantages_text .item .desc
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*-----------------
+        Service cost
+    -----------------*/
+    .service_cost .bg
+    {
+        margin-top: 10px;
+    }
+
+
+    .service_cost .bord
+    {
+        max-width: 345px;
+        padding: 8px;
+    }
+
+
+    .service_cost .table .head
+    {
+        font-size: 11px;
+
+        margin-bottom: 7px;
+    }
+
+    .service_cost .table .item
+    {
+        min-height: 36px;
+        margin-top: 4px;
+    }
+
+    .service_cost .table .item .val
+    {
+        font-size: 12px;
+
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    .service_cost .table .item .box
+    {
+        padding-right: 6px;
+        padding-left: 6px;
+    }
+
+    .service_cost .table .item .desc
+    {
+        font-size: 9px;
+        line-height: 1;
+
+        margin-left: 10px;
+    }
+
+
+
+    /*-----------------
+        Documents
+    -----------------*/
+    .documents .bg
+    {
+        padding: 10px 0 20px;
+    }
+
+
+    .documents .slider
+    {
+        margin-top: 28px;
+    }
+
+
+    .documents .document
+    {
+        max-width: none;
+    }
+
+
+    .documents .bord
+    {
+        max-width: 168px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 18px 28px;
+    }
+
+
+    .documents .name
+    {
+        font-size: 14px;
+
+        margin-top: 8px;
+    }
+
+    .documents .name br
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+		Reviews
+    -----------------*/
+    .reviews .slider
+    {
+        margin-top: 10px;
+    }
+
+    .reviews .name
+    {
+        font-size: 14px;
+
+        margin-bottom: 10px;
+    }
+
+    .reviews .more
+    {
+        font-size: 12px;
+
+        margin-top: 10px;
+    }
+
+
+
+    /*-----------------
+		Articles
+    -----------------*/
+    .article .more
+    {
+        font-size: 12px;
+
+        margin-top: 10px;
+    }
+
+
+
+    /*-----------------
+		Principle
+    -----------------*/
+    .principle .item
+    {
+        margin-top: 20px;
+    }
+
+    .principle .item .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+    .principle .item .desc
+    {
+        margin-top: 10px;
+    }
+
+
+
+    /*-----------------
+		Program
+    -----------------*/
+    .program .bg
+    {
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .program .title
+    {
+        font-size: 16px;
+
+        padding: 10px;
+    }
+
+    .program .desc
+    {
+        font-size: 11px;
+
+        margin-top: 10px;
+    }
+
+
+    .program .items
+    {
+        margin: 6px 0 0 -4px;
+    }
+
+    .program .item
+    {
+        width: calc(50% - 4px);
+        margin: 4px 0 0 4px;
+    }
+
+    .program .item .name
+    {
+        font-size: 16px;
+
+        padding: 10px;
+    }
+
+    .program .item .number
+    {
+        font-size: 20px;
+
+        margin-top: 4px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .program .item .text
+    {
+        font-size: 11px;
+
+        margin-top: 4px;
+        padding: 14px 10px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col_l
+    {
+        width: 100%;
+        max-width: none;
+    }
+
+
+    footer .logo img
+    {
+        max-width: 212px;
+        margin: 0 auto;
+    }
+
+
+    footer .policy
+    {
+        font-size: 11px;
+
+        margin-top: 18px;
+
+        text-align: center;
+    }
+
+
+    .socials
+    {
+        justify-content: center;
+    }
+
+    .socials a
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+    .socials a + a
+    {
+        margin-left: 18px;
+    }
+
+    .socials .vk img
+    {
+        width: 20px;
+    }
+
+    .socials .tw img
+    {
+        width: 19px;
+    }
+
+    .socials .ok img
+    {
+        width: 15px;
+    }
+
+    .socials .fb img
+    {
+        width: 15px;
+    }
+
+    .socials .ins img
+    {
+        width: 17px;
+    }
+
+    .socials .yt img
+    {
+        width: 19px;
+    }
+
+
+    footer .contact
+    {
+        width: 100%;
+        margin-top: 18px;
+    }
+
+    footer .adres
+    {
+        font-size: 11px;
+
+        max-width: 220px;
+        margin: 28px auto 0;
+        padding-left: 34px;
+    }
+
+    footer .phones
+    {
+        max-width: 220px;
+        margin: 24px auto 0;
+    }
+
+    footer .phone
+    {
+        font-size: 11px;
+    }
+
+    footer .phone a
+    {
+        padding-left: 34px;
+    }
+
+    footer .messengers
+    {
+        margin-left: 12px;
+    }
+
+    footer .messengers a
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    footer .messengers a + a
+    {
+        margin-left: 5px;
+    }
+
+
+    footer .mail
+    {
+        font-size: 11px;
+
+        max-width: 220px;
+        margin: 20px auto 0;
+    }
+
+    footer .mail a
+    {
+        padding-left: 34px;
+    }
+
+
+    footer .tg
+    {
+        font-size: 11px;
+
+        max-width: 220px;
+        margin: 24px auto 0;
+    }
+
+    footer .tg a
+    {
+        padding-left: 34px;
+    }
+
+
+    footer .time
+    {
+        font-size: 11px;
+
+        max-width: 220px;
+        margin: 28px auto 0;
+        padding-left: 34px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

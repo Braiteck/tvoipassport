@@ -1,0 +1,582 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 20px;
+    }
+
+
+
+    .cont
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+
+        width: 375px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+
+        background: rgba(101, 113, 142, .7);
+    }
+
+    header.show
+    {
+        transform: translateX(0);
+    }
+
+
+    header .mob_scroll
+    {
+        display: flex;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 0;
+        padding: 86px 54px 30px;
+
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        overscroll-behavior-y: contain;
+    }
+
+    header .mob_scroll > *
+    {
+        width: 100%;
+    }
+
+
+    header .top
+    {
+        display: none;
+    }
+
+
+    header .info
+    {
+        padding: 0;
+
+        background: transparent;
+    }
+
+    header .info .cont
+    {
+        padding: 0;
+    }
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+    header .callback
+    {
+        display: none;
+    }
+
+
+    header .menu .item
+    {
+        width: 100%;
+    }
+
+    header .menu .item + .item
+    {
+        margin: 30px 0 0;
+    }
+
+    header .menu .item a
+    {
+        font-size: 24px;
+
+        padding-bottom: 2px;
+
+        text-align: left;
+
+        border-bottom-color: #fff;
+    }
+
+    header .menu .item a.active
+    {
+        font-weight: 700;
+    }
+
+
+    header .socials
+    {
+        display: flex;
+
+        margin-top: 64px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form_section .form
+    {
+        max-width: 480px;
+        margin: 20px auto 0;
+    }
+
+    .form .line
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .form .columns
+    {
+        margin-left: 0;
+    }
+
+    .form .columns > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: 100%;
+    }
+
+
+    .form .bot
+    {
+        display: flex;
+
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .form .bot .submit
+    {
+        width: 100%;
+        margin-top: 8px;
+
+        order: 2;
+    }
+
+    .form .bot .agree
+    {
+        width: 100%;
+        margin-top: 4px;
+    }
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block p,
+    .text_block ul
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block ul li
+    {
+        padding-left: 24px;
+    }
+
+    .text_block ul li + li
+    {
+        margin-top: 20px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 3px;
+
+        width: 10px;
+        height: 14px;
+    }
+
+
+
+    .list_info li
+    {
+        font-size: 16px;
+    }
+
+    .list_info li + li
+    {
+        margin-top: 20px;
+    }
+
+    .list_info li:before
+    {
+        top: 3px;
+
+        width: 10px;
+        height: 14px;
+    }
+
+    .list_info li span
+    {
+        width: 70px;
+    }
+
+
+
+    /*------------------------
+		Slider controls
+	------------------------*/
+    .swiper
+    {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .slider-button-prev,
+    .slider-button-next
+    {
+        width: 20px;
+        height: 60px;
+        margin-top: -30px;
+    }
+
+
+    .swiper:before,
+    .swiper:after
+    {
+        width: 40px;
+    }
+
+
+
+    /*-----------------
+        History
+    -----------------*/
+    .history .text_block
+    {
+        width: 50%;
+        padding: 20px;
+    }
+
+
+
+    /*-----------------
+		Advantages
+	-----------------*/
+    .advantages .items
+    {
+        margin-left: -20px;
+        padding-bottom: 56px;
+    }
+
+    .advantages .item_wrap
+    {
+        width: calc(100%/4 - 20px);
+        margin: 56px 0 0 20px;
+    }
+
+    .advantages .item_wrap:nth-child(2n)
+    {
+        top: 56px;
+    }
+
+    .advantages .item
+    {
+        font-size: 18px;
+
+        padding-right: 16px;
+        padding-left: 16px;
+
+        border-radius: 10px;
+    }
+
+    .advantages .item:before
+    {
+        top: -50px;
+
+        width: 60px;
+        height: 78px;
+    }
+
+
+    .advantages_text .items
+    {
+        margin-left: -20px;
+    }
+
+
+    .advantages_text .item
+    {
+        width: calc(100%/4 - 20px);
+        margin-left: 20px;
+    }
+
+
+    .advantages_text .item .number
+    {
+        font-size: 50px;
+    }
+
+    .advantages_text .item .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------------
+		Main info
+	-----------------*/
+    .row_info .box_img
+    {
+        width: calc(100% + 15px);
+    }
+
+    .row_info.reverse .box_img
+    {
+        margin-left: -15px;
+    }
+
+
+    .row_info.reverse .box_video
+    {
+        margin-left: -15px;
+    }
+
+    .row_info .box_video
+    {
+        width: calc(100% + 15px);
+    }
+
+
+    .video_slider2
+    {
+        margin-top: 20px;
+    }
+
+    .video:before
+    {
+        width: 46px;
+        height: 46px;
+        margin: -23px 0 0 -23px;
+    }
+
+
+    .link_all.pad
+    {
+        padding-left: 60px;
+    }
+
+
+
+    /*-----------------
+		Service cost
+	-----------------*/
+    .service_cost .bord
+    {
+        max-width: 700px;
+    }
+
+
+    .service_cost .table .head
+    {
+        font-size: 18px;
+
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+
+    .service_cost .table .item .val
+    {
+        font-size: 18px;
+
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .service_cost .table .item .box
+    {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .service_cost .table .item .number
+    {
+        font-size: 26px;
+    }
+
+    .service_cost .table .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------------
+		Documents
+	-----------------*/
+    .documents .document
+    {
+        max-width: 180px;
+    }
+
+    .documents .bord
+    {
+        padding: 0 20px 25px;
+    }
+
+
+
+    /*-----------------
+		Principle
+	-----------------*/
+    .principle .item .icon
+    {
+        display: flex;
+
+        width: 72px;
+        height: 72px;
+        margin-right: 20px;
+
+        justify-content: center;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-shrink: 0;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*-----------------
+		Program
+	-----------------*/
+    .program .title
+    {
+        font-size: 20px;
+
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .program .item .name
+    {
+        font-size: 20px;
+
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .program .item .number
+    {
+        font-size: 28px;
+
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .program .item .text
+    {
+        font-size: 16px;
+
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+
+
+    /*-----------------
+		Reviews
+	-----------------*/
+    .reviews .name
+    {
+        font-size: 16px;
+
+        margin-bottom: 20px;
+    }
+
+    .reviews .more
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

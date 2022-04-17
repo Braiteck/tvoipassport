@@ -1,0 +1,425 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 13px;
+        --font_size_title: 17px;
+    }
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .main_title br
+    {
+        display: none;
+    }
+
+
+    .subtitle br
+    {
+        display: none;
+    }
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form_section .bg
+    {
+        margin-top: 20px;
+    }
+
+    .form_section .form
+    {
+        max-width: 320px;
+    }
+
+
+    .form .title
+    {
+        font-size: 18px;
+
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 4px;
+    }
+
+
+    .form .input
+    {
+        height: 30px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 18px;
+
+        height: 38px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block ul li + li
+    {
+        margin-top: 10px;
+    }
+
+    .text_block ul li:before
+    {
+        top: 2px;
+
+        width: 9px;
+        height: 12px;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .main_section .bg
+    {
+        margin-top: 20px;
+    }
+
+    .main_section .form
+    {
+        margin-right: auto;
+    }
+
+
+
+    /*-----------------
+		Main about
+	-----------------*/
+    .main_about .text_block
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-----------------
+		Main info
+	-----------------*/
+    .row_info
+    {
+        flex-wrap: wrap;
+    }
+
+
+    .row_info .col_text
+    {
+        width: 100%;
+        max-width: none;
+        margin-top: 16px;
+    }
+
+
+    .row_info .col_img
+    {
+        width: 100%;
+
+        order: 0;
+    }
+
+    .row_info .box_img
+    {
+        width: calc(100% + 30px);
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+
+    .row_info .box_video
+    {
+        width: calc(100% + 30px);
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+
+    .link_all
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+
+        text-align: center;
+    }
+
+    .link_all.pad
+    {
+        padding-left: 0;
+    }
+
+
+
+    /*-----------------
+		History
+	-----------------*/
+    .history .text_block
+    {
+        width: calc(100% - 30px);
+        margin-right: auto;
+        padding: 16px 26px;
+    }
+
+
+
+    /*-----------------
+		Service cost
+	-----------------*/
+    .service_cost .table .head
+    {
+        font-size: 14px;
+
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .service_cost .table .item
+    {
+        min-height: 54px;
+        margin-top: 6px;
+    }
+
+    .service_cost .table .item .val
+    {
+        font-size: 14px;
+
+        width: calc(42% - 3px);
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .service_cost .table .item .box
+    {
+        width: calc(58% - 3px);
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    .service_cost .table .item .number
+    {
+        font-size: 18px;
+    }
+
+    .service_cost .table .item .desc
+    {
+        font-size: 12px;
+
+        margin-left: 12px;
+    }
+
+
+    /*-----------------
+		Reviews
+	-----------------*/
+    .reviews .row_info .col_img
+    {
+        width: 100%;
+        max-width: none;
+    }
+
+
+    .reviews .row_info .col_text
+    {
+        width: 100%;
+        max-width: none;
+    }
+
+
+
+    /*-----------------
+		Advantages
+	-----------------*/
+    .advantages .slider-button-next,
+    .advantages .slider-button-prev
+    {
+        top: auto;
+        bottom: 50%;
+
+        display: block;
+
+        margin-top: 0;
+        margin-bottom: -30px;
+    }
+
+
+    .advantages .item
+    {
+        font-size: 16px;
+    }
+
+
+    .advantages_text .items
+    {
+        margin-left: -20px;
+    }
+
+
+    .advantages_text .item
+    {
+        width: calc(100%/4 - 20px);
+        margin-left: 20px;
+    }
+
+
+    .advantages_text .item .number
+    {
+        font-size: 50px;
+    }
+
+
+
+    .advantages_text .item
+    {
+        width: calc(100%/2 - 20px);
+    }
+
+
+
+    /*-----------------
+		Principle
+	-----------------*/
+    .principle .item
+    {
+        width: 100%;
+        max-width: none;
+        margin-top: 30px;
+    }
+
+
+
+    /*-----------------
+		Program
+	-----------------*/
+    .program .item
+    {
+        width: calc(50% - 7px);
+
+        flex-grow: 1;
+    }
+
+    .program .desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-----------------
+		Reviews
+	-----------------*/
+    .reviews .name
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .reviews .more
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+
+    .reviews .link_all
+    {
+        text-align: left;
+    }
+
+
+
+    /*-----------------
+		Articles
+	-----------------*/
+    .article .name
+    {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .article .more
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 20px 0;
+    }
+
+
+    footer .col_l
+    {
+        width: 38%;
+        max-width: 202px;
+    }
+
+
+    footer .list
+    {
+        display: none;
+    }
+
+
+    footer .bot
+    {
+        margin-top: 40px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

@@ -1,0 +1,177 @@
+@media print,
+(max-width: 1220px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        width: 200px;
+    }
+
+
+    header .menu .item + .item
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block ul li + li
+    {
+        margin-top: 26px;
+    }
+
+
+
+    /*-----------------
+		Main section
+	-----------------*/
+    .main_section .form
+    {
+        margin-right: 0;
+    }
+
+
+
+    /*-----------------
+		Main info
+	-----------------*/
+    .row_info .box_img
+    {
+        width: 100%;
+    }
+
+    .row_info.reverse .box_img
+    {
+        margin-left: 0;
+    }
+
+
+    .row_info.reverse .box_video
+    {
+        margin-left: 0;
+    }
+
+    .row_info .box_video
+    {
+        width: 100%;
+    }
+
+
+
+    .list_info
+    {
+        margin-left: 0;
+    }
+
+    .list_info li + li
+    {
+        margin-top: 26px;
+    }
+
+
+
+    /*-----------------
+		Reviews
+	-----------------*/
+    .reviews .row_info .col_text
+    {
+        padding-left: 0;
+    }
+
+
+    .reviews .name
+    {
+        margin-bottom: 26px;
+    }
+
+    .reviews .more
+    {
+        margin-top: 26px;
+    }
+
+
+
+    .article .name
+    {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .article .more
+    {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+
+
+    /*-----------------
+		Form section
+	-----------------*/
+    .form_section .bg
+    {
+        margin-top: 30px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
