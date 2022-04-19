@@ -1411,7 +1411,7 @@ header.socials .yt img
     position: absolute;
     z-index: 9;
     top: 0;
-    left: 2px;
+    left: -2px;
 
     width: 52px;
     height: 100%;
